@@ -1,0 +1,139 @@
+/* Allgemeine Stile */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+/* Header */
+header {
+    background-color: #001957;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #001957;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #FFA500;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #FFA500;
+    color: #FFFFFF;
+}
+
+/* Hauptbereich */
+main {
+    padding: 20px;
+    background: #FFF2DC;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.background-blue {
+    background-color: #001957;
+    color: #fff;
+}
+
+.background-sand {
+    background-color: #fff2dc;
+    color: #001957;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Col */
+[class*='col-'] {
+    position: relative;
+    width: 100%;
+}
+
+.gap-1 [class*='col-']{
+    padding-right: 10px;
+    padding-left: 10 px;
+}
+
+.gap-2 [class*='col-']{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.gap-3 [class*='col-']{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+/* Specific column widths */
+.col-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+.col-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+.col-3 { flex: 0 0 25%; max-width: 25%; }
+.col-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+.col-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+.col-6 { flex: 0 0 50%; max-width: 50%; }
+.col-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+.col-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+.col-9 { flex: 0 0 75%; max-width: 75%; }
+.col-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+.col-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+.col-12 { flex: 0 0 100%; max-width: 100%; }
