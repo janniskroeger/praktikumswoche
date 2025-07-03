@@ -10,76 +10,23 @@ body {
     color: #000;
 }
 
-/* Header */
-header {
-    background-color: #001957;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
+.hintergrund {
+    background-color: black;
+    background-image: url("Images/Logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+     background-position: center;
 }
 
-header h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 2em;
-}
-
-/* Navigation */
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #001957;
-    padding: 10px 0;
-}
-
-nav a {
-    color: #FFA500;
-    text-decoration: none;
-    padding: 10px 15px;
-    text-align: center;
-}
-
-nav a:hover {
-    background-color: #FFA500;
-    color: #FFFFFF;
-}
-
-/* Hauptbereich */
-main {
-    padding: 20px;
-    background: #FFF2DC;
-    margin-bottom: 20px;
-}
-
-main h2 {
-    margin-top: 0;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+.link {
+    color: white;
+    font-size: 25px;
+    background-color: red;
     padding: 10px;
-    margin-top: 20px;
-}
-
-li {
-    list-style-position: inside;
-}
-
-.background-blue {
-    background-color: #001957;
-    color: #fff;
-}
-
-.background-sand {
-    background-color: #fff2dc;
-    color: #001957;
-}
-
-.text-center {
-    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 100px;
+    display: inline-block;
 }
 
 .rounded {
